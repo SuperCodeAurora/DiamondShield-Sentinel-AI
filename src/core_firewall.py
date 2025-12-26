@@ -2,7 +2,8 @@ import re
 from .heuristics import TrafficAnalyzer
 from .logger import SecurityLogger
 
-class AegisFirewall:
+# RENAMED from AegisFirewall to DiamondShield
+class DiamondShield:
     def __init__(self):
         # Initialize components
         self.analyzer = TrafficAnalyzer(use_ai=True, ai_model="llama3")
@@ -43,7 +44,6 @@ class AegisFirewall:
              return {"allowed": False, "reason": "Suspicious Payload Entropy"}
 
         # 5. AI Semantic Analysis (Slow but smart)
-        # Only check significant payloads to save resources
         if len(payload) > 10:
             print(f"[*] Analyzing payload with AI: {payload[:20]}...")
             ai_result = self.analyzer.check_with_ai(payload)
