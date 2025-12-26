@@ -27,6 +27,7 @@ The easiest way to run DiamondShield is using Docker. This ensures the AI and th
    git clone [https://github.com/SuperCodeAurora/DiamondShield-Sentinel-AI.git](https://github.com/SuperCodeAurora/DiamondShield-Sentinel-AI.git)
    cd DiamondShield-Sentinel-AI
 ⚠️ Disclaimer
+
 FOR EDUCATIONAL AND DEFENSIVE PURPOSES ONLY.
 
 This software is designed to protect servers from malicious traffic. It creates a defensive layer for web applications. The authors are not responsible for any misuse of this code or any damage caused by its implementation. Always test security tools in a controlled environment before deploying to production.
